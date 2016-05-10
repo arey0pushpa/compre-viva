@@ -201,30 +201,41 @@
 
 					</ul>
 					<pre><code data-trim contenteditable>
-_.map, _.reduce, _.pluck, _.debounce, _.memoize
-// lot of goodies inside
+               // A Assumption
+                   Cell has to be in steady State 
 					</code></pre>
-					<small style="margin-top:50px;"><sup>*</sup> : Almost, its fork <a href="http://lodash.com/">Lo-Dash</a> is better.</small>
+					<small style="margin-top:50px;"><sup>*</sup> :Not always  <a href="http://lodash.com/">the case</a> but interesting enough.</small>
 				</section>
 
 				<section>
-					<h2>Underscore, but...</h2>
-					<p>Fusion Rules :
-                In order to fusion to occur v snares present at edge 
-                should find the corresponding t snares at the target node. 
-                That is driven by the FriendMatrix v * t matrix : 
-                Represnts which t snares are required in order to fusion to happen.
-                 And all tsnares required for the fusion should be in on state based on onOff Matrix :
+					<h2>Fusion Rules ...</h2>
+					<ul>
+               <li> In order to fusion to occur V-Snares present at edge 
+                should find the corresponding T-Snares at the target node.</li> 
+                <br />
+<li>        Driven by <a href ="">Friend/Inhibition- Matrix </a><font color="#808000">&nbsp; v * t matrix </font>
+ &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp;
+ <code>              Represnts which t snares are required in order to fusion to happen.</code></li>
+                                <br />
+
+<li>
+                 At least one tsnares required for the fusion should be in active based on onOff Matrix :
                   which states which t snares are in active phase at any node.
-            <br />      
-               At least one vsnare should pass all constraints and allow fusion to occur. Multiple can.
-<br />
-               Other constraine is that the tsnares that are required for fusion have not to be present at edge.
-                Else that vsnare will not be considered for a candidate for the fusion. 
-                For source compartment also, those t snares have to be absent or present but are surely off (a 0 Onoff matrix).
-</p>
+    </li>        <br />      
+      
+     </ul>
 				</section>
 
+<section>
+<ul>
+ <li>         At least one vsnare should pass all constraints and allow fusion to occur. Multiple can.</li>
+<br /><li>
+               Other constraine is that the tsnares that are required for fusion have not to be present at edge.
+                Else that vsnare will not be considered for a candidate for the fusion. 
+          </li>      
+    <br />        <li>   For source compartment also, those t snares have to be absent or present but are surely off (a 0 Onoff matrix).</li>
+</ul>
+</section>
 				
 
 				
